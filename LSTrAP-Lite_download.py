@@ -13,8 +13,11 @@ from scipy.stats import sem
 
 """
 Notes: 
-1)download_list should be in this format: "run_ID\tlibrary_layout", please refer to sample data for an example
-2) For sample data, please replace "CDS_file" with "GCA_003112345.1_ASM311234v1_cds_from_genomic.fna.gz" in the variable "kallisto_fasta"
+1)download_list should be in this format: "run_ID\tlibrary_layout". Please refer to sample data for an example
+2) To test the script with sample data, please 
+	a)	Download the CDS file from "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/003/112/345/GCA_003112345.1_ASM311234v1/GCA_003112345.1_ASM311234v1_cds_from_genomic.fna.gz"
+		and place it in the sample_data folder
+	b)	Replace "CDS_file" with "GCA_003112345.1_ASM311234v1_cds_from_genomic.fna.gz" in the variable "kallisto_fasta"
 """
 
 ##############################################################################
