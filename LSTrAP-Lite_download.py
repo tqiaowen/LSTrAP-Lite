@@ -11,7 +11,11 @@ from scipy.stats import sem
 #1. Edit the paths under 'Paths to files'
 #2. Run the script.
 
-#Notes: download_list should be in this format: "run_ID\tlibrary_layout"
+"""
+Notes: 
+1)download_list should be in this format: "run_ID\tlibrary_layout", please refer to sample data for an example
+2) For sample data, please replace "CDS_file" with "GCA_003112345.1_ASM311234v1_cds_from_genomic.fna.gz" in the variable "kallisto_fasta"
+"""
 
 ##############################################################################
 #                              Path to files                                 #
