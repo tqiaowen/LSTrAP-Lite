@@ -14,7 +14,7 @@ Below, you can find the tutorial on how to build your own co-expression networks
   * [Getting started](docs/01_start.md)
   * [Quality control](docs/02_qc.md)
 
-Do nott hesitate to <a href="mailto:qiaowen001@e.ntu.edu.sg">contact us</a> if you have further questions.
+Feel free to <a href="mailto:qiaowen001@e.ntu.edu.sg">contact us</a> if you have further questions.
 
 ## Acknowledgements
 LSTrAP-Lite not have been possible without the various open-source projects.
