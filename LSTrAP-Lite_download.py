@@ -8,24 +8,24 @@ from scipy.stats import sem
 #                               USER GUIDE                                   #
 ##############################################################################
 
-#1. Edit the paths under 'Paths to files'
+#1. Edit the paths under 'Paths to edit'
 #2. Run the script.
 
 """
 Notes: 
-1)download_list should be in this format: "run_ID\tlibrary_layout". Please refer to sample data for an example
-2) To test the script with sample data, please 
-	a)	Download the CDS file from "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/003/112/345/GCA_003112345.1_ASM311234v1/GCA_003112345.1_ASM311234v1_cds_from_genomic.fna.gz"
-		and place it in the sample_data folder
-	b)	Replace "CDS_file" with "GCA_003112345.1_ASM311234v1_cds_from_genomic.fna.gz" in the variable "kallisto_fasta"
+1) Download_list should be in this format: "run_ID\tlibrary_layout". Please refer to sample data for an example
+2) Please refer to https://github.com/tqiaowen/LSTrAP-Lite/docs/tutorial.md for more information
 """
 
 ##############################################################################
-#                              Path to files                                 #
+#                              Paths to edit                                 #
 ##############################################################################
 pathtolocal = '/path/to/local'
 download_list = open(pathtolocal+'/sra_runID.txt', 'r').readlines()
 kallisto_fasta = pathtolocal + "/CDS_file"
+pathtoaspera = 'exagear debian-8 -- /home/rock64/.aspera/connect/bin/ascp'
+aspera_ssh_key = '/home/rock64/.aspera/connect/etc/asperaweb_id_dsa.openssh'
+pathtokallisto = '/home/rock64/bin/kallisto'
 
 ##############################################################################
 #                               Other paths                                  #
@@ -37,10 +37,6 @@ output_file = open(path_to_output, 'w+') #full matrix file
 map_stats = open(pathtolocal + '/mapping_stats.tsv', 'w+') #mapping statistics output
 id_file = open(pathtolocal + '/selected_runs.txt', 'w+')
 id_file.close()
-#Paths for rock64
-pathtoaspera = 'exagear debian-8 -- /home/rock64/.aspera/connect/bin/ascp'
-aspera_ssh_key = '/home/rock64/.aspera/connect/etc/asperaweb_id_dsa.openssh'
-pathtokallisto = '/home/rock64/bin/kallisto'
 
 #creates directories if they do not already exist
 if not os.path.exists(curFile):
