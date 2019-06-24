@@ -37,5 +37,7 @@ For this tutorial, we will be working in the directory "sample_data".
 
 ## Running the script
 Save the script in the directory specified in "pathtolocal". Enter the directory speicified in "pathtolocal" and run the script.
+
 <code>python3 LSTrAP-Lite_download.py</code>
-  
+
+Quality control and selection of SRA runs to be used for subsequent analysis will be covered in the [next section](02_qc.md).
