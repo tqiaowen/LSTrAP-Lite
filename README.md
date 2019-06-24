@@ -6,7 +6,7 @@ If you use LSTrAP-Lite in your research, please cite: <b>Inferring biosynthetic 
 # What is LSTrAP-Lite?
 LSTrAP-Lite is a pipeline designed for building co-expression networks from RNA-seq data (fastq files from <a href="https://www.ebi.ac.uk/ena">ENA</a>) on a lightweight, linux based device, such as the <a href="https://www.pine64.org/devices/single-board-computers/rock64/">Rock64</a>. 
 
-Below, you can find the tutorial on how to build your own co-expression networks with the source code and example data provided. An advanced tutorial on how to annotate the co-expression neighbourhood using mercator is also available. 
+Below, you can find the tutorial on how to build your own co-expression networks with the source code and [example data](sample_data) provided. An advanced tutorial on how to annotate the co-expression neighbourhood using mercator is also available. 
 
 # Changelog
 
