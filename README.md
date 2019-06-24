@@ -11,7 +11,8 @@ Below, you can find the tutorial on how to build your own co-expression networks
 # Changelog
 
 # Tutorials
-
+  * [Getting started](docs/01_start.md)
+  * [Quality control](docs/02_qc.md)
 Don't hesitate to <a href="mailto:qiaowen001@e.ntu.edu.sg">contact us</a> if you have further questions.
 
 # Acknowledgements
