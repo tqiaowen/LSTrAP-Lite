@@ -4,9 +4,11 @@ We will use the sample data provided to demonstrate how to modify the code to bu
 
 ## Selecting the files to download
   * Go to [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)
-  * Search for the files that you want to download and select only RNA sources. Eg. <i>Artemisia annua</i>
+  * Search for the files that you want to download, select only RNA sources and send results to RunSelector. 
+    Eg. <i>Artemisia annua</i>
     ![SRA search](images/search.png "NCBI SRA search")
-  *
+  * Download the RunInfo Table
+    ![RunInfo Table](images/SRAruntable.png "SRA RunInfo Table")
 
 ## Modifying the paths
 
