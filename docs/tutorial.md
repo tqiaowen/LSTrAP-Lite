@@ -2,6 +2,12 @@
 Welcome to the tutorial on how to use the LSTrAP-Lite source code!
 We will use the sample data provided to demonstrate where the code should be modified to build your own co-expression networks.
 
+## Software requirements
+  * [aspera cli (optional)](https://downloads.asperasoft.com/en/downloads/62)
+  * [python 3](https://www.python.org/downloads/)
+  * [kallisto v0.44.0](https://pachterlab.github.io/kallisto/download)
+  
+
 ## Selecting the files to download
   * Go to [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)
   * Search for the files that you want to download, select only RNA sources and send results to RunSelector. <br> 
