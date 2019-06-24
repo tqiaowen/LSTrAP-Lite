@@ -14,7 +14,7 @@ from scipy.stats import sem
 """
 Notes: 
 1) Download_list should be in this format: "run_ID\tlibrary_layout". Please refer to sample data for an example
-2) Please refer to https://github.com/tqiaowen/LSTrAP-Lite/docs/tutorial.md for more information
+2) Please refer to https://github.com/tqiaowen/LSTrAP-Lite/docs/01_start.md for more information
 """
 
 ##############################################################################
