@@ -1,4 +1,4 @@
-# Tutorial
+# Getting started
 Welcome to the tutorial on how to use the LSTrAP-Lite source code!
 We will use the sample data provided to demonstrate where the code should be modified to build your own co-expression networks.
 
