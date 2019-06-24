@@ -4,7 +4,7 @@ We will use the sample data provided to demonstrate how to modify the code to bu
 
 ## Modifying the paths
 
-![paths](images/paths.png "Paths to edit")
+![paths](./images/paths.png "Paths to edit")
 
 In the section "Paths to edit" found in LSTrAP-Lite_download.py, there are a few paths that needs to be modified for the script to work.
   * <b>pathtolocal</b> refers to the directory that your will be working in to download and process the files.
