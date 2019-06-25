@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 """
 1) Edit the "pathtolocal", which should be the same as in LSTrAP_Lite_download.py
 2) Copy and paste the desired SRA Run ID into the file "selected_runs" and save it.
