@@ -19,7 +19,7 @@ Below, you can find the tutorial on how to build your own co-expression networks
 Feel free to <a href="mailto:qiaowen001@e.ntu.edu.sg">contact us</a> if you have further questions.
 
 ## Acknowledgements
-LSTrAP-Lite not have been possible without the various open-source projects.
+LSTrAP-Lite will not have been possible without the various open-source projects.
 
 ## Contact
 Issues and feedback can be submitted through GitHub or to <a href="https://www.plant.tools/team---qiao-wen.html">Qiao Wen Tan</a>.
