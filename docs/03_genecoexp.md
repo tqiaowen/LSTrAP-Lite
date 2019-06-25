@@ -26,5 +26,6 @@ The network will be visualised with using the Cytoscape software ([download here
   3. Set first, second and third columns as "Source node", "Target node" and "Edge attribute" respectively and click "OK".<br>
   ![cytoscape2](images/cs_setting2.png)
 
-You have now created your first network using LSTrAP-Lite!
-If you have further questions or feedback, do not hesitate to [contact us](mailto:qiaowen001@e.ntu.edu.sg).
+You have now created your first gene co-expression network using LSTrAP-Lite! For easier analysis of your networks, we have provided some tips in the [advanced tutorial](04_advanced.md) where we demonstrate how you can combine [mercator](https://mapman.gabipd.org/app/mercator) annotation results with the neighbourhood file ("nbh.txt").
+
+If you have further questions or feedback, do not hesitate to [contact us](mailto:qiaowen001@e.ntu.edu.sg). Happy data crunching!
