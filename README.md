@@ -13,6 +13,8 @@ Below, you can find the tutorial on how to build your own co-expression networks
 ## Tutorials
   * [Getting started](docs/01_start.md)
   * [Quality control](docs/02_qc.md)
+  * [Generating co-expression networks](docs/03_genecoexp.md)
+  * [Advanced tutorial](docs/04_advanced.md)
 
 Feel free to <a href="mailto:qiaowen001@e.ntu.edu.sg">contact us</a> if you have further questions.
 
