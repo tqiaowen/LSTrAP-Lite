@@ -53,7 +53,7 @@ if os.path.getsize(pathtolocal + '/logs/logfile.txt') == 0:
 logfile_path.close()
 
 #creates kallisto index
-os.system("kallisto index -i " + kallisto_index + " " + kallisto_fasta)
+os.system(pathtokallisto + " index -i " + kallisto_index + " " + kallisto_fasta)
 print("Kallisto index created")
 
 """
