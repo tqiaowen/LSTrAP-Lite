@@ -25,15 +25,13 @@ We will use the sample data provided to demonstrate where the code should be mod
 
 ![paths](images/paths.PNG "Paths to edit")
 
-In the section "Paths to edit" found in [LSTrAP-Lite_download.py](../LSTrAP-Lite_download.py), there are a few paths that needs to be modified for the script to work. <i>Note: In order for aspera to run on the Rock64, an emulator is required to emulate the x86 architecture. This was previously acheivable via the emulator provided by Exagear Desktop, which has been discontinued.</i>
+In the section "Paths to edit" found in [LSTrAP-Lite_download.py](../LSTrAP-Lite_download.py), there are a few paths that needs to be modified for the script to work. <i>Note: In order for aspera to run on the Rock64, an emulator is required to emulate the x86 architecture. This was previously acheivable via the emulator provided by Exagear Desktop, which has been discontinued. Alternatively, to download the fastq files via ftp, please use the script [LSTrAP-Lite_download_wget.py](../LSTrAP-Lite_download_wget.py).</i>
   * <b>pathtolocal</b> refers to the directory that your will be working in to download and process the files.
   * <b>download_list</b> refers to the file that contains the SRA run ID and the respective library format of the files that you want to download.
   * <b>kallisto_fasta</b> refers to the CDS file that will be used to generate the kallisto index file
   * <b>pathtoaspera</b> refers to the location to where the aspera cli executable is located
   * <b>aspera_ssh_key</b> refers to the location to where the aspera ssh key is found
   * <b>pathtokallisto</b> refers to the location where the kallisto executable is located
-  
-For this tutorial, we will be working in the directory "sample_data".
 
 ## Running the script
 Save the script in the directory specified in "pathtolocal". Enter the directory speicified in "pathtolocal" and run the script.
